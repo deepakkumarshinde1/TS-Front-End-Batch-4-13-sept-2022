@@ -1,0 +1,71 @@
+/*
+element selector
+mark {
+  background-color: brown;
+  color: white;
+}
+
+  Selector{
+    props:value
+  }
+ 
+h1 {
+  background-color: green;
+  color: white;
+}
+h2 {
+  background-color: purple;
+}
+h2 {
+  background-color: red;
+}
+ */
+/* id selector */
+/* #deepak {
+  background-color: red;
+}
+
+#mark-2 {
+  background-color: green;
+} */
+/* Class selectors */
+/* .bg-red {
+  background-color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: yellow;
+} */
+
+#id-h1 {
+  background-color: purple;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+h1 {
+  background-color: red;
+}
+
+/* box */
+.box {
+  /* background-color: red; */
+  /* color: white; */
+  width: 200px;
+  height: 200px;
+  padding: 16px; /* top-right-bottom-left */
+  padding: 16px 10px; /* top-bottom left-right */
+  padding: 16px 10px 8px; /* top left-right bottom*/
+  padding: 16px 10px 8px 5px; /* top right bottom left*/
+
+  border: 2px solid red; /* thickness style  colorD*/
+  /* 
+  
+  margin: ; */
+}

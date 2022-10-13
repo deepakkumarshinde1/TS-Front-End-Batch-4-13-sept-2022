@@ -1,0 +1,63 @@
+/* reset the css & set a common value to element  */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: red;
+  display: inline;
+}
+span {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  width: 20%;
+  height: 20vh;
+  color: white;
+}
+
+.item-1 {
+  background-color: red;
+}
+.item-2 {
+  background-color: green;
+}
+.item-3 {
+  background-color: blue;
+}
+
+body {
+  height: 200px;
+}
+
+.container {
+  /* height: 100vh; viewport height */
+  width: 100vw; /* viewport width */
+  background-color: rgb(255, 255, 178);
+  display: flex;
+  flex-direction: row; /* row (default) */
+  justify-content: flex-start;
+  /*justify-content work horizontal (default) => 
+    flex-start (default),
+    flex-end,
+    center,
+    pace-between,
+    space-around,
+    space-evenly */
+  align-items: flex-end;
+  /* align-items works vertical (default)
+  flex-start,center,flex-end  */
+  flex-wrap: wrap;
+}

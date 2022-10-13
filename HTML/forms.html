@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intro Session</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Login</legend>
+      <form>
+        <div>
+          <label for="">User Name</label>
+          <input
+            required
+            type="text"
+            placeholder="Enter user Name"
+            name="username"
+          />
+        </div>
+        <div>
+          <label for="">Password</label>
+          <input
+            required
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+          />
+        </div>
+        <button>Login</button>
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Registration</legend>
+      <form>
+        <div>
+          <label for="full-name">Full Name</label>
+          <input id="full-name" type="text" placeholder="User name" />
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input required type="email" placeholder="User Email ID" />
+        </div>
+        <div>
+          <label for="">Mobile</label>
+          <input
+            readonly
+            required
+            type="number"
+            placeholder="User Mobile Number"
+          />
+        </div>
+        <div>
+          <label for="">Gender</label>
+          <div>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <input type="radio" id="other" name="gender" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div>
+          <label for="">Topics</label>
+          <div>
+            <input type="checkbox" checked disabled />
+            <label for="">HTML</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label for="">Java</label>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <label for="">MySQL</label>
+          </div>
+        </div>
+        <!-- drop down -->
+        <div>
+          <label for="">City</label>
+          <select>
+            <option value="0">Option-1</option>
+            <option value="1" selected>Option-2</option>
+            <option value="2">Option-3</option>
+            <option value="3">Option-4</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Address</label>
+          <textarea name="" id="" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="color" />
+          <input type="date" />
+          <input type="time" />
+          <input type="range" />
+          <input type="file" multiple />
+          <input type="reset" />
+        </div>
+        <button>Submit</button>
+      </form>
+    </fieldset>
+
+    <!-- layout development -->
+    <!-- html-4 none-semantic -->
+    <div></div>
+    <!-- html-5 semantic -->
+    <header></header>
+    <footer></footer>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <main></main>
+  </body>
+</html>
