@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Home</title>
+    <link rel="icon" href="/images/fevicon/favicon_1.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="/plugin/bootstrap-5.2.2-dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="./plugin/bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <section
+        class="d-none row main-section align-content-start justify-content-center border-bottom border-5 border-dark"
+      >
+        <header
+          class="col-11 mx-auto d-flex justify-content-between py-3 align-items-start"
+        >
+          <img
+            src="/images/Netflix-Brand-Logo.png"
+            alt=""
+            style="width: 9rem"
+          />
+          <div>
+            <button
+              class="btn border border-white text-white rounded rounded-0 me-2"
+            >
+              English
+            </button>
+            <button class="btn btn-danger">Sign Up</button>
+          </div>
+        </header>
+        <section
+          class="col-7 text-white d-flex flex-column align-items-center mt-5"
+        >
+          <p class="display-5 text-center mt-5">
+            Unlimited movies, TV shows and more.
+          </p>
+          <p class="h4">Watch anywhere. Cancel anytime.</p>
+          <p class="h6">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="input-group mt-4">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="user-email"
+                placeholder="Enter Email ID"
+              />
+              <label for="user-email" class="text-dark">Enter Email ID</label>
+            </div>
+            <span class="input-group-text bg-danger text-white fs-3"
+              >Get Started >
+            </span>
+          </div>
+        </section>
+      </section>
+      <section
+        class="row enjoy-tv-section text-white border-bottom border-5 border-dark d-none"
+        style="background-color: #000000"
+      >
+        <section class="col-10 m-auto d-flex align-items-center p-4">
+          <div class="w-50">
+            <h1 class="display-4 fw-bold">Enjoy on your TV</h1>
+            <p class="fs-5">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+          <div class="w-50 text-end enjoy-tv-image-section">
+            <img src="./images/tv.png" alt="" style="width: 30rem" />
+            <video src="./images/video-tv-in-0819.m4v" autoplay loop></video>
+          </div>
+        </section>
+      </section>
+      <section
+        class="row text-white border-bottom border-5 border-dark"
+        style="background-color: #000000"
+      >
+        <section
+          class="col-10 m-auto d-flex flex-column align-items-center p-4"
+        >
+          <p class="display-4 fw-bold">Frequently Asked Questions</p>
+          <div class="w-75">
+            <section class="faq-list-item">
+              <button
+                data-bs-toggle="collapse"
+                data-bs-target="#faqQuestionOne"
+                aria-expanded="false"
+                aria-controls="faqQuestionOne"
+              >
+                What is Netflix?
+              </button>
+              <div id="faqQuestionOne" class="collapse">
+                <p>
+                  Netflix is a streaming service that offers a wide variety of
+                  award-winning TV shows, movies, anime, documentaries and more
+                  – on thousands of internet-connected devices.
+                </p>
+                <p>
+                  You can watch as much as you want, whenever you want, without
+                  a single ad – all for one low monthly price. There's always
+                  something new to discover, and new TV shows and movies are
+                  added every week!
+                </p>
+              </div>
+            </section>
+
+            <section class="faq-list-item">
+              <button
+                data-bs-toggle="collapse"
+                data-bs-target="#faqQuestionTwo"
+                aria-expanded="false"
+                aria-controls="faqQuestionTwo"
+              >
+                How much netflix cost?
+              </button>
+              <div id="faqQuestionTwo" class="collapse">
+                <p>
+                  Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                  streaming device, all for one fixed monthly fee. Plans range
+                  from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                </p>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
