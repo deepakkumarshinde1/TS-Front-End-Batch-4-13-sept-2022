@@ -1,0 +1,69 @@
+Programming Language
+    PO
+    OOP
+    Functional Lang
+
+JavaScript => Single Thread 
+    Desktop
+    Mobile App
+    Console App
+    Server Web App
+    Server REST API (Application Programming Interface)
+
+    Front End App (Angular, React, Veu,Jquery)
+
+
+Data Types
+    String
+    Number 123, 1.4
+    Boolean True,False
+    Object
+        null
+        function
+        array
+        jsObject
+    undefined
+
+   code load default datatype (undefined) 
+
+Primitive (data value)
+    String, Number, Boolean
+
+Non Primitive (data reference)
+    Array, JsObject
+
+Arithmetic
+    +,-,%/*
+
+Assignment 
+    +=
+    -=
+    /=
+    %=
+    *=
+
+    ++
+    --
+
+Conditional
+    >
+    >=
+    <
+    <=
+    == (data)
+    != (data)
+    === (data + datatype)
+    !== (data + datatype)
+
+Logical
+    AND ==> &&
+    OR ==> ||
+    NOT ==> !
+
+Conditional Statement 
+    IF
+    IF ELSE
+    Nested If ELSE
+    IF else chaining
+
+    Switch
