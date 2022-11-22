@@ -1,0 +1,20 @@
+Framework =>
+    Collection Lib
+    Architecture 
+        ==> MVC Model, View, Controller
+        ==> MVVM
+        ==> MV
+    Runs On Environment
+    Angular,Spring Boot
+
+Lib =>
+    Collection of Methods & Utilities
+    React JS (View)
+    jQuery 3.6.1
+
+
+jQuery ==> $
+$ <= function/instance
+
+
+$() 
