@@ -5,13 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JQuery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      p {
+        margin: 0;
+        color: red;
+      }
+      /* ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ul > li {
+        width: 150px;
+        max-height: 230px;
+        border: 3px solid #dad8d8;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 8px;
+      }
+      ul > li > img {
+        width: 150px;
+        height: 150px;
+      }
+      .dropdown {
+        border: 1px solid black;
+        display: inline;
+        padding: 5px;
+      } */
+      .dropdown select {
+        appearance: none;
+        border: none;
+        outline: none;
+      }
+      .menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        background-color: #282a35;
+      }
+      .menu li {
+        margin: 0 8px;
+        color: white;
+        display: flex;
+      }
+      .menu li a {
+        color: white;
+        text-decoration: none;
+        padding: 16px 8px;
+      }
+      .menu li a:hover {
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
-    <form>
+    <!-- <form>
       <input type="text" placeholder="name" id="inputName" />
       <button id="btn-save">Save</button>
-    </form>
+    </form> -->
+    <button id="get-data">get list</button>
+
+    <ul id="userList"></ul>
+    <div class="dropdown">
+      <i class="fa fa-globe" aria-hidden="true"></i>
+      <select id="select-website">
+        <option value="/home.html">English</option>
+        <option value="https://www.youtube.com/">हिंदी</option>
+      </select>
+      <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </div>
+
+    <ul class="menu">
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+    </ul>
+
     <script src="/js/jquery/jquery-3.6.1.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="/js/jqueryAjax.js"></script>
+    <script>
+      $(function () {
+        $("#select-website").on("change", function () {
+          var url = $(this).val();
+          // location.assign(url);
+          if (url !== "") window.open(url, "new");
+        });
+      });
+    </script>
   </body>
 </html>

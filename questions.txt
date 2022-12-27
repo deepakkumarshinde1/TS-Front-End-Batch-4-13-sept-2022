@@ -1,0 +1,57 @@
+What is HTML ?
+    => HTML Is a hypertext markup language
+
+# What is CSS ?
+    => CSS is a cascading style sheet
+
+# What is difference HTML & CSS ?
+    => HTML is use to create a skeleton of a page
+    => CSS is use for Design of HTML Page
+
+# Which Property is use create a internal space in element ?
+    => padding 
+
+# What is a block element & inline element in HTML?
+    => DIV is block element (always start with new line)
+    => SPAN is inline element (has space with there content only)
+
+# What is a javascript ?
+    => Its is scripting language 
+    => Its use for User Interaction in Browser
+    => We can connection our front end with Backend (xhr, fetch, (ajax))
+    => xhr => HTML HTTP REQUEST
+
+# What is a API ?
+    => Application Programming Interface
+    => API are functionality which are basically created for user to interact with language
+    => DOM, XHR, FETCH , Promises
+ 
+# What is REST API ?
+    => Application Programming Interface
+
+# What is POSTMAN ?
+    => Testing Tool For HTTP Request.
+    => Server REST API 
+    => POSTMAN is client for SERVER (Spring Boot)
+    => Representational State Transfer API
+
+# Whats methods in HTTP Protocols ?
+    => GET (default), POST, DELETE , PUT, PATCH
+
+# What Library and Framework ?
+    => Library
+    => Framework
+
+# How to perform on click on JQUERY ? 
+    => 
+
+# Write a code to print Hello world on button click ?
+    => alert('Hello world');
+    => 
+
+# What JSP ?
+
+# What is difference between .JSP & .HTML?
+    .JSP => Java Syntax can be use in JSP
+         => JSP pages are dynamic. 
+         => JSP => output => Pure HTML => client
